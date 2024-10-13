@@ -233,7 +233,7 @@ footer p {
 
 
 
-@media (max-width:760px) {
+@media (max-width:480px) {
       .conti{
           flex-direction: column;
           padding-top: 20px;
