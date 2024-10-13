@@ -1,0 +1,160 @@
+body {
+    background-color: #dad7cd;
+    color: #555;
+    font-family: Calisto Mt, Arial, Helvetica, SansSerif, serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#mian-header{
+    background-color: #344e41;
+    color: goldenrod;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+
+#navbar{
+    background-color: rgba(44, 122, 83, 0.85);
+    color: gold;
+    opacity: 1;
+    position: sticky;
+    top: 0;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: #dad7cd;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 18px;
+    font-weight: bold;
+}
+
+#navbar a:hover{
+    color: #282626;
+    background-color: rgb(255, 255, 255);
+    font-size: 22px;
+    transition: all 0.2s;
+    border-radius: 10px;
+    padding: 6px 10px;
+
+
+}
+
+#showcase{
+    background-image: url("../img/fer.jpeg");
+    background-position: center right;
+    background-attachment: fixed;
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#showcase h1 {
+    color: #282626;
+    font-size: 50px;
+    padding-top: 30px;
+    line-height: 1.4em;
+}
+
+#main{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#main h1{
+    color: #344e41;
+    font-size: 35px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background: #a3b18a;
+    color: black;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#main-footer{
+    background: #3a5a40;
+    color: #dad7cd;
+    text-align: center;
+    padding: 10px;
+    margin: 40px 0;
+
+}
+
+#main-footer p{
+    font-family: Tahoma, serif;
+}
+
+.that{
+    background: #a3b18a;
+    color: black;
+    border-radius: 10px;
+    margin: 100px 80px;
+    padding: 5px 20px 200px;
+}
+
+.that h2{
+    font-variant: simplified;
+    font-weight: bolder;
+    text-decoration: overline;
+    text-transform: capitalize;
+    text-shadow: #3a5a40 5px 3px 5px;
+}
+
+.that img{
+    border: 3px dashed darkgoldenrod;
+    border-radius: 10px;
+    padding: 10px 0;
+    filter: alpha(opacity=100);
+}
+
+.table{
+    padding: 4px 20px 100px;
+    margin: 80px;
+    border: 1px solid red;
+}
+
+.table table{
+    border-collapse: collapse;
+    border: solid black 2px;
+}
+
+
+
+@media (max-width:600px) {
+    #main{
+        width: 100%;
+        float: none;
+    }
+
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+}
