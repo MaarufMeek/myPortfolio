@@ -79,7 +79,7 @@ nav li a:hover{
 
 .info{
     color: rgb(196,209,911);;
-    margin: 100px 30px;
+    margin: 100px auto;
     border: 3px solid;
     border-image: linear-gradient(to right, purple, lightblue) 1;
     background-clip: border-box;
@@ -88,7 +88,7 @@ nav li a:hover{
     padding: 20px;
     height: auto;
     max-width: 500px;
-    width: 100%;
+    width: 90%;
     transition: 0.5s;
     box-sizing: border-box;
 
@@ -215,7 +215,7 @@ footer p {
 }
 
 /* Responsive footer for mobile */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     footer {
         padding: 20px;
         position: absolute;
@@ -271,6 +271,26 @@ footer p {
         font-size: 0.95rem;
     }
 }
+
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 1rem; 
+    }
+
+    nav h1 {
+        font-size: 36px;
+    }
+}
+
 
 
 
