@@ -164,8 +164,8 @@ nav li a:hover{
     transition: 0.5s;
 }
 
-/*footer*/
 
+/*footer*/
 footer {
     background: linear-gradient(to right, #12252c, #3f2650);
     color: #ffffff;
@@ -210,7 +210,7 @@ footer p {
     color: #ffffff;
 }
 
-.footer-container i{
+.footer-container i {
     font-size: 24px;
 }
 
@@ -219,7 +219,7 @@ footer p {
     footer {
         padding: 20px;
         position: absolute;
-        bottom: -30%;
+        bottom: -65%;
     }
 
     footer p {
