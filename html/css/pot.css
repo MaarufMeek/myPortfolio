@@ -79,7 +79,7 @@ nav li a:hover{
 
 .info{
     color: rgb(196,209,911);;
-    margin: 100px auto;
+    margin: 100px 30px;
     border: 3px solid;
     border-image: linear-gradient(to right, purple, lightblue) 1;
     background-clip: border-box;
