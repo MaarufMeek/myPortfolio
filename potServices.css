@@ -221,6 +221,10 @@ footer p {
         align-items: start;
     }
 
+     nav{
+        padding: 0 10px 10px;
+    }
+
     nav ul li a {
         text-decoration: none;
         font-weight: bold;
@@ -229,3 +233,33 @@ footer p {
         padding: 2px 2px 3px;
     }
 }
+
+
+
+@media (min-width: 320px) and (max-width: 355px) {
+     footer {
+        position: absolute;
+        bottom: -55%;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    .footer-links li a {
+        font-size: 12px;
+    }
+
+    nav h1 {
+        font-size: 23px;
+    }
+
+    nav ul li a {
+        font-size: 12px;
+    }
+
+    nav {
+        padding: 0 10px 10px;
+    }
+}
+

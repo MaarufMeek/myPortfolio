@@ -147,6 +147,10 @@ footer p {
         font-size: 25px;  /* Reduce font size for the logo */
     }
 
+     nav{
+        padding: 0 10px 10px;
+    }
+
     .about-me {
         padding: 20px;
         margin-top: 20px;
@@ -173,4 +177,33 @@ footer p {
     .footer-links li a {
         font-size: 12px;
     }
+}
+
+@media (min-width: 320px) and (max-width: 355px) {
+     footer {
+        position: absolute;
+        bottom: -55%;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    .footer-links li a {
+        font-size: 12px;
+    }
+
+    nav h1 {
+        font-size: 23px;
+    }
+
+    nav ul li a {
+        font-size: 12px;
+    }
+
+    nav {
+        padding: 0 10px 10px;
+    }
+
+
 }
