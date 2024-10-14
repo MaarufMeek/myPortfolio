@@ -404,7 +404,11 @@ footer p {
 
 @font-face {
     font-family: 'Script MT';
-    src: url('ScriptMTBold.ttf') format('truetype');
-    font-weight: normal;
+    src: url('ScriptMTBold.woff2') format('woff2'),
+        url('ScriptMTBold.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
+    font-display: swap;
 }
+
+
