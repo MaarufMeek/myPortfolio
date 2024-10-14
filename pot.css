@@ -314,7 +314,7 @@ footer p {
         height: auto;
         left: 60%;
     }
-
+    /*img*/
     .images:hover .shape {
         top: 5%;
         transition: 0.5s;
