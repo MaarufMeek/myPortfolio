@@ -311,7 +311,7 @@ footer p {
 
     .images .shape {
         width: 100%;
-        height: 70%;
+        height: auto;
         left: 60%;
     }
 
@@ -319,7 +319,7 @@ footer p {
         top: 5%;
         transition: 0.5s;
         width: 100%;
-        height: 75%;
+        height: auto;
     }
 
     nav h1 {
