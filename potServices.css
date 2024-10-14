@@ -83,6 +83,10 @@ nav li a:hover {
     color: #62f6ea;
 }
 
+.services ul h3{
+    color: #e2f117;
+}
+
 .services p {
     font-family: Open Sans, sans-serif;
     font-size: 16px;
@@ -114,7 +118,7 @@ nav li a:hover {
 }
 
 .services ul li:hover {
-    background: linear-gradient(to right, #2a69ac, #153369);
+    background: linear-gradient(to right, #0f447c, #102c5e);
     transition: 0.4s;
 }
 
