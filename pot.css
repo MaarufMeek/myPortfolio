@@ -402,22 +402,9 @@ footer p {
 
 }
 
-/*@media (max-width: 834px){*/
-/*    .images {*/
-/*        left: -15%;*/
-/*        transform: translateY(40%);*/
-/*        width: 80%;*/
-/*    }*/
-
-/*    .info {*/
-/*        margin: 200px 20px 0;*/
-/*        width: 100%;*/
-/*        height: auto;*/
-/*        padding: 15px;*/
-/*    }*/
-
-/*    .info p {*/
-/*        font-size: 20px;*/
-/*    }*/
-/*}*/
-
+@font-face {
+    font-family: 'Script MT';
+    src: url('ScriptMTBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -207,3 +207,10 @@ footer p {
 
 
 }
+
+@font-face {
+    font-family: 'Gabriola';
+    src: url('gabriola Font Download.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
