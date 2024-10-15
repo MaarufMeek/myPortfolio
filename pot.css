@@ -402,6 +402,7 @@ footer p {
 
 }
 
+/* load fonts to local device*/
 @font-face {
     font-family: 'Script MT';
     src: url('ScriptMTBold.woff2') format('woff2'),
